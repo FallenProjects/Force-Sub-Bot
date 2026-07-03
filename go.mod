@@ -1,6 +1,6 @@
 module github.com/Abishnoi69/Force-Sub-Bot
 
-go 1.23.0
+go 1.25.0
 
 require (
 	github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.29
@@ -11,6 +11,6 @@ require (
 require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 )
