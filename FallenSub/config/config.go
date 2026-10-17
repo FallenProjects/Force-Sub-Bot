@@ -23,8 +23,8 @@ func init() {
 	_ = godotenv.Load()
 
 	DatabaseURI = os.Getenv("DB_URI")
-	Token = os.Getenv("TOKEN")
-	OwnerId = toInt64(os.Getenv("OWNER_ID"))
+	Token = os.Getenv("8653203719:AAFXFxCaFYJuRyJ9sBaDtJ3dc7XSs7zBUos")
+	OwnerId = toInt64(os.Getenv("@AMIT_OF"))
 	LoggerId = toInt64(os.Getenv("LOGGER_ID"))
 
 	// Log to stdout instead of a file because vercel doesn't support writing to files
